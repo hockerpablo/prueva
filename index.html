@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  <main>
+    <form class="libreria">
+      <h1>Libros</h1>
+    <div class="container">
+      <div class="labels">
+        <label for="name">nombre</label>
+        <label for="last_name">apellido</label>
+        <label for="phone">numero de telefono</label>
+        <label for="email"> email</label>
+        <label for="dni">dni</label>
+      </div>
+      <div class="inputs">
+        <input type="text" id="name" placeholder="ingrese su nombre">
+        <input type="text" id="last_name" placeholder="ingrese su apellido">
+        <input type="number" id="phone" placeholder="ingrese su numero de telefono">
+        <input type="email" id="email" placeholder="ingrese su email">
+        <input type="number" id="dni" placeholder="ingrese aqui su dni">
+      </div>
+    </div>
+    <div class="cf"></div>
+    <button class="btn" id="btn_registrar">Registrate</button>
+    </form> 
+
+    <table id="tabla">
+    <thead>
+      <tr> nombre </tr>
+      <tr> apellido</tr>
+      <tr> numero de telefono </tr>
+      <tr> direccion de email </tr>
+      <tr> numero de dni </tr>
+    </thead>
+    </table>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

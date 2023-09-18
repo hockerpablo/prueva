@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: white;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color:#444;
+    text-align: center;
+}
+/*estilos de la galeria */
+.container{
+   display: flex;
+   gap: 2rem;
+   padding: 2rem;
+}
+form .inputs{
+    align-items: center;
+    position: relative;
+    left: 5rem;
+    
+}
+.labels{
+    width: 100px;
+    height: 100px;
+    display: block;
+    gap: 30px;
+    margin-right: 0;
+}
+.inputs{
+    justify-content: space-around;
+    align-items: center;
+}
+input{
+    width: 200px;
+    height: 20px;
+    display: block;
+    gap: 20px;
+    
+}
+.btn{
+    width: 100px;
+    height: 30px;
+}
